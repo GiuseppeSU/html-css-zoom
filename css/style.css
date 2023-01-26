@@ -11,7 +11,6 @@ body{
 
 .top-bar{
     height: 100px;
-    border: 1px solid white;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -42,5 +41,68 @@ body{
     color: white;
     width: 50px;
     height: 30px;
+    
+}
+
+.container{
+    width: 85vw;
+    height: 75vh;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+
+}
+
+.col{
+    border:1px solid white;
+    width: calc(100% / 8);
+    background-image: url("https://picsum.photos/200/300");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+margin: 5px 5px;    
+
+}
+
+.text{
+    background-color: grey;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text,i,span{
+    color: white;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-bar{
+    height: 150px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: rgb(63, 63, 63);
     
 }
