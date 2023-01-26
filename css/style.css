@@ -52,9 +52,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-
-
+    
 }
+
+.container::-webkit-scrollbar{
+    display: none;
+    }
 
 .col{
     border:1px solid white;
