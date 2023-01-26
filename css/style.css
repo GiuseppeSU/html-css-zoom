@@ -81,28 +81,54 @@ margin: 5px 5px;
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom-bar{
     height: 150px;
     border: 1px solid white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
     background-color: rgb(63, 63, 63);
+   
     
 }
+
+.mini-bar{
+    border: 1px solid white;
+    width: 300px;
+    height: 80px;
+}
+
+.item-left{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.text-icons{
+    display: flex;
+    align-items: center;
+}
+
+h5{
+    color: white;
+    font-size: 13px;
+    padding:5px  15px;
+}
+
+.fa-microphone{
+    
+}
+
+
+.fa-video{
+    margin-left: 15px;    
+}
+
+
+.fa-chevron-up{
+    margin: 0px 15px;
+    font-size: 10px;
+    
+}
+
+
+
