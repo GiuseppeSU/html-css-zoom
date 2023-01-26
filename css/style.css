@@ -1,21 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
 
 }
 
-.top-bar{
+.top-bar {
     height: 100px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     padding-top: 10px;
-    
+
 }
 
 .speaker {
@@ -31,7 +31,7 @@ body{
     margin: 0px 10px;
 }
 
-.fullscreen{
+.fullscreen {
     border-radius: 10px;
     background-color: grey;
     vertical-align: middle;
@@ -41,10 +41,10 @@ body{
     color: white;
     width: 50px;
     height: 30px;
-    
+
 }
 
-.container{
+.container {
     width: 85vw;
     height: 75vh;
     margin: auto;
@@ -52,149 +52,137 @@ body{
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-    
+
 }
 
-.container::-webkit-scrollbar{
+.container::-webkit-scrollbar {
     display: none;
-    }
+}
 
-.col{
-    border:1px solid white;
+.col {
+    border: 1px solid white;
     width: calc(100% / 8);
     background-image: url("https://picsum.photos/200/300");
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
     position: relative;
-    margin: 5px 5px;    
+    margin: 5px 5px;
 
 }
 
-.text{
+.text {
     background-color: grey;
     width: 100px;
     position: absolute;
     bottom: 0px;
 }
 
-.text,i,span{
+.text, i, span {
     color: white;
 
-    
+
 }
 
-.bottom-bar{
+.bottom-bar {
     height: 150px;
     border: 1px solid white;
     background-color: rgb(63, 63, 63);
     display: flex;
     justify-content: space-between;
     background-color: rgb(146, 146, 146);
-   
-    
+
+
 }
 
-.mini-bar{
+.mini-bar {
     height: 80px;
-    background-color:rgb(88, 88, 88) ;
+    background-color: rgb(88, 88, 88);
     padding-left: 5px;
-    
-    
+
+
 }
 
 
-.mid-bar{
+.mid-bar {
     width: 83%;
     height: 80px;
     display: flex;
     background-color: rgb(88, 88, 88);
     justify-content: center;
-    
-    
-    
-    
-
 }
 
-.item-left{
+.item-left {
     color: white;
     font-size: 20px;
     align-items: center;
     padding-top: 10px;
     margin-left: 20px;
-    
-}
-
-.fa-people-roof{
-    margin-left: 60px  ;
-}
-
-.fa-chart-column{
-    margin-left: 20px  ;
 
 }
 
-.fa-share-from-square{
-    margin-left: 40px  ;
+.fa-people-roof {
+    margin-left: 60px;
+}
+
+.fa-chart-column {
+    margin-left: 20px;
+
+}
+
+.fa-share-from-square {
+    margin-left: 40px;
     color: limegreen;
 
 }
 
-.fa-rocketchat{
+.fa-rocketchat {
     margin-left: 10px;
 }
 
-.fa-record-vinyl{
+.fa-record-vinyl {
     margin-left: 20px;
 }
 
-.fa-comment-dots{
+.fa-comment-dots {
     margin-left: 10px;
 }
 
-.text-icons{
+.text-icons {
     display: flex;
     align-items: center;
 }
 
-h5{
+h5 {
     color: white;
     font-size: 20px;
     padding-top: 5px;
     margin-right: 15px;
 }
 
-.fa-video{
-    margin-left: 15px;    
+.fa-video {
+    margin-left: 15px;
 }
 
 
-.fa-chevron-up{
+.fa-chevron-up {
     margin: 0px 15px;
     font-size: 10px;
-    
+
 }
 
-.footer-bar{
+.footer-bar {
     height: 80px;
     width: 150px;
     background-color: rgb(109, 109, 109);
     display: flex;
     justify-content: center;
-   
+
     align-items: center;
-    
-}
-
-.end{
 
 }
 
-.end-text{
+
+.end-text {
     color: red;
 }
-
-
-
-
